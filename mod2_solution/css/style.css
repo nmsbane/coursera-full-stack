@@ -1,0 +1,63 @@
+/***************** base styles ***************/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px
+}
+
+section > div > div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: gray
+}
+
+.push-right {
+    float: right;
+    margin-top: -10px;
+    width: 100px;
+    text-align: center;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.content {
+    clear: right;
+}
+
+#title1 {
+    background-color: blue;
+}
+
+#title2 {
+    background-color: aqua;
+}
+
+#title3 {
+    background-color: red;
+}
+
+/************* larger devices ************/
+@media(min-width: 992px) {
+    section > div{
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/************ medium devices ************/
+@media(min-width: 768px) and (max-width: 991px) {
+    section > div {
+        float: left;
+        width: 50%;
+    }
+    section div#last {
+        width: 100%;
+    }
+}
