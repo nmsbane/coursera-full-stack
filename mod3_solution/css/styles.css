@@ -1,0 +1,38 @@
+.navbar {
+    border-radius: 0px;
+}
+
+li:nth-child(1), li:nth-child(2) {
+    border-bottom: 1px solid black;
+    vertical-align: center;
+}
+
+#myNavbar li a {
+    color: black;
+}
+
+.text-center {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#main-content {
+    min-height: 1000px;
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    font-size: 1.8em;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width: 767px) {
+    #myNavbar.navbar-collapse {
+        background-color: white;
+    }
+    
+}
+
+
+
